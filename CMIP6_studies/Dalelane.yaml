@@ -6,7 +6,7 @@
     units: 1
     variables: tos, z500
     comment: >
-      Data is converted to seasonal anomalies, detrended with season-reliant trend-EOFs. 
+      The metric describes the ability of a model to represent the spatial dependencies within ocean circulation, atmospheric circulation and between ocean and atmospheric circulation in terms of seasonal SSTs and Z500 Data is converted to seasonal anomalies, detrended with season-reliant trend-EOFs. 
       Seasonal variances normalized. 
       Adjacency-matrix between all pairs of grid cell with Spearman's rank correlation. 
       Maximal domains in tos (z500) with average pairwise rank correlation>0.95(0.93)-
